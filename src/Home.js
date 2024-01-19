@@ -2,6 +2,7 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './Home.css'
 import Images from './assets/Images/10.jpeg'
+import Faq from './components/feedback_and_quires/Faq'
 
 
 function Home() {
@@ -65,13 +66,7 @@ function Home() {
     <footer className="footer">
 
 <div>
-      <h3>Frequently Asked Questions</h3>
-   <ul>
-          <li><NavLink to="/faq">How to apply for a loan?</NavLink></li>
-          <li><NavLink to="/faq">What are the eligibility criteria?</NavLink></li>
-          <li><NavLink to="/faq">How is the interest rate calculated?</NavLink></li>
-          <li><NavLink to="/faq">What are the documents required for a business loan?</NavLink></li>
-   </ul>
+      <Faq />
 </div>
 
 <div>

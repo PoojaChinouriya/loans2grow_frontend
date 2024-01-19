@@ -18,6 +18,11 @@ function NavBar() {
         <NavLink className="nav-link" aria-current="page" to="">Pages</NavLink>
         <NavLink className="nav-link" aria-current="page" to="">News</NavLink>
         <NavLink className="nav-link" aria-current="page" to="">Contact</NavLink>
+        <NavLink className="nav-link" aria-current="page" to="/Customer_question" >Customer_question</NavLink>
+        
+        <NavLink className="nav-link" aria-current="page" to="/staff_members" >Staff_members</NavLink>
+
+
         </div>
         <div className='navbar-nav'>
         <NavLink className="nav-link"  to="/admin/">Admin</NavLink>
