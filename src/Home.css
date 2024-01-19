@@ -1,7 +1,62 @@
-#intro{
+/* #intro{
 
     background-image: 'url("10.jpeg")';
 
     background-color: white;
     background-size: cover;
-};
+}; */
+/* Home.css */
+body {
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Text color */
+  }
+  
+  .jumbotron {
+    background-color: #3f007f; /* Purple background color for the header */
+  }
+  
+  .container.border {
+    background-color: #1a1a1a; /* Dark background color for the form container */
+  }
+  
+  .btn-primary {
+    background-color: #3f007f; /* Purple button color */
+  }
+  
+  .btn-primary:hover {
+    background-color: #5f1a5f; /* Darker purple color on button hover */
+  }
+  
+  .btn-success {
+    background-color: #00cc66; /* Green button color for submit button */
+  }
+  
+  .btn-success:hover {
+    background-color: #00994d; /* Darker green color on button hover */
+  }
+  
+  .btn-danger {
+    background-color: #cc0000; /* Red button color for reset button */
+  }
+  
+  .btn-danger:hover {
+    background-color: #990000; /* Darker red color on button hover */
+  }
+  
+  .footer {
+    background-color: #1a1a1a; /* Dark background color for the footer */
+    color: #ffffff; /* Text color in the footer */
+  }
+  
+  .footer-section {
+    border-top: 1px solid #666; /* Border color between footer sections */
+  }
+  
+  .social-icons a {
+    color: #ffffff; /* Color for social media links */
+  }
+  
+  .social-icons a:hover {
+    color: #3f007f; /* Dark purple color on social media link hover */
+  }
+  

@@ -7,13 +7,13 @@ function NavBar() {
     <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
   <div className="container-fluid">
-    <NavLink className="navbar-brand" to="#">Loans<span style={{color:'red'}}>2</span>Grow</NavLink>
+    <NavLink className="navbar-brand" to="/">Loans<span style={{color:'red'}}>2</span>Grow</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div className="navbar-nav me-auto">
-        <NavLink className="nav-link" aria-current="page" to="/home" >Home</NavLink>
+        <NavLink className="nav-link" aria-current="page" to="/" >Home</NavLink>
         <NavLink className="nav-link" aria-current="page" to="">About Us</NavLink>
         <NavLink className="nav-link" aria-current="page" to="">Pages</NavLink>
         <NavLink className="nav-link" aria-current="page" to="">News</NavLink>
