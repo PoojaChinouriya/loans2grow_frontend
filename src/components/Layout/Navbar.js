@@ -1,8 +1,16 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import Login from '../Login'
 
 
 function NavBar() {
+  function logout(){
+    window.localStorage.setItem('isLoggedIn',JSON.stringify(false))
+    window.localStorage.clear("AccessToken")
+    window.localStorage.clear("RefreshToken")
+    window.location.href = 'http://localhost:3000/login/'
+  }
+  const isLoggedIn = JSON.parse(localStorage.getItem("isLoggedIn"))
   return (
     <div>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -21,6 +29,10 @@ function NavBar() {
         </div>
         <div className='navbar-nav'>
         <NavLink className="nav-link"  to="/admin/">Admin</NavLink>
+    
+        {isLoggedIn ? <NavLink className="nav-link" onClick={logout}>Logout</NavLink>:
+                       <NavLink className="nav-link"  to="/login/">Login</NavLink>}
+        
         </div>
     </div>
   </div>
