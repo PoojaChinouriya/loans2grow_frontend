@@ -13,6 +13,7 @@ function Home() {
             <h1 class="display-4">Get the Loan and Grow your buisness</h1>
             <p class="lead">We provide flexible loan options to meet your financial needs.</p>
             <NavLink class="btn btn-primary btn-lg" to="#" role="button">Apply Now</NavLink>
+            
         </div>
     </header>
     
